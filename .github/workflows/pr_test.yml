@@ -161,7 +161,7 @@ jobs:
           php install-dev/index_cli.php \
           --language=en --country=fr --domain=localhost \
           --db_server=127.0.0.1 --db_password=password --db_name=prestashop --db_create=1 --prefix=tst_ \
-          --firstname="Marc" --lastname="Beier" --email=demo@prestashop.com --password=prestashop_demo
+          --firstname="Marc" --lastname="Beier" --email=demo@prestashop.com --password="Correct Horse Battery Staple"
         working-directory: ${{ env.PS_DIR }}
 
       - run: |
